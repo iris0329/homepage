@@ -76,7 +76,7 @@
 
         .container {
             /* width: 750px; */
-            width: 800px;
+            width: 850px;
             margin: 20px auto;
             border-radius: 10px;
             background-color: #fff;
@@ -86,7 +86,7 @@
 
         .container_title {
             /* width: 750px; */
-            width: 800px;
+            width: 850px;
             margin: 20px auto;
             border-radius: 10px;
             padding: 20px;
@@ -131,6 +131,7 @@
                 color: #0050e7;
             }
         
+        /* 最上面的栏目 */
         .topbar {
             font-size: 20px;
             margin: 0;
@@ -141,13 +142,6 @@
                 color: black;
             }
 
-            .topbar .links {
-                color: black;
-            }
-
-                .topbar .links a {
-                    color: black;
-                }
 
         .publogo {
             width: 100 px;
@@ -166,20 +160,50 @@
                 padding-top: 5px;
             }
 
+            /* 论文和项目的标题 */
             .publication strong a {
                 /* color: #0000A0; */
-                font-size: medium;
+                font-size: 18px;
                 color: black;
             }
 
+            /* 代码论文链接 */
             .publication .links {
+                font-size: 16px;
                 position: relative;
-                top: 10px
+                top: 10px;
             }
 
                 .publication .links a {
                     margin-right: 20px;
+                    /* 边框样式 */
+                    border-style:solid;
+                    border-width:1px;
+                    border-radius: 5px;
+                    /* 内边距 */
+                    padding-right: 5px; 
+                    padding-left: 5px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                    /* outline-offset: -1px; */
+
                 }
+                /* 鼠标悬浮样式 */
+                .publication .links a:hover {
+                    /* 下划线 */
+                    text-decoration: none;
+                    border: none;
+                    /* outline: none; */
+                    background:
+
+                        linear-gradient(90deg, rgb(212, 210, 210) 50%, transparent 0) repeat-x,
+                        linear-gradient(90deg, rgb(212, 210, 210) 50%, transparent 0) repeat-x,
+                        linear-gradient(0deg, rgb(212, 210, 210) 50%, transparent 0) repeat-y,
+                        linear-gradient(0deg, rgb(212, 210, 210) 50%, transparent 0) repeat-y; 
+                        background-size: 4px 1px, 4px 1px, 1px 4px, 1px 4px;
+                        background-position: 0 0, 0 100%, 0 0, 100% 0;
+                    }
+
 
         .codelogo {
             margin-right: 10px;
@@ -503,7 +527,7 @@
                 <span class="links">
                     <a href="https://github.com/zhuomanliu/SCGN">Code</a>
                     <a href="https://www.youtube.com/watch?v=phC4gAi8mkg">Video</a>
-                    <a href="https://mailscuteducn-my.sharepoint.com/personal/selzm_mail_scut_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fselzm%5Fmail%5Fscut%5Fedu%5Fcn%2FDocuments%2FCVTE%2DA10%2DLab&originalPath=aHR0cHM6Ly9tYWlsc2N1dGVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzpmOi9nL3BlcnNvbmFsL3NlbHptX21haWxfc2N1dF9lZHVfY24vRXR1aTB6anNFaTlDdm41MWViY3g0cHdCcDJ4Qk9EV0NxRmtJYXFDcWRyUXFBZz9ydGltZT1IZGRxTFdCUzJVZw">DataSet</a>
+                    <a href="https://mailscuteducn-my.sharepoint.com/personal/selzm_mail_scut_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fselzm%5Fmail%5Fscut%5Fedu%5Fcn%2FDocuments%2FCVTE%2DA10%2DLab&originalPath=aHR0cHM6Ly9tYWlsc2N1dGVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzpmOi9nL3BlcnNvbmFsL3NlbHptX21haWxfc2N1dF9lZHVfY24vRXR1aTB6anNFaTlDdm41MWViY3g0cHdCcDJ4Qk9EV0NxRmtJYXFDcWRyUXFBZz9ydGltZT1IZGRxTFdCUzJVZw">Dataset</a>
                 </span>
     
             </p>
