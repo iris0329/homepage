@@ -1,11 +1,12 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"> -->
 
 
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
+    <meta charset=UTF-8">
 
     <!-- analysis -->
     <script>
@@ -33,12 +34,13 @@
         @media screen and (max-device-width: 480px) {
             body {
                 -webkit-text-size-adjust: none;
+                /* zoom:0.5 */
             }
         }
 
         /* 正文字号 */
         p {
-            font-size: 18px;
+            font-size: 16px;
         }
 
 
@@ -50,7 +52,7 @@
 
         /* 标题字号 */
         h2 {
-            font-size: 25px;
+            font-size: 20px;
             margin: 0;
             padding: 0;
         }
@@ -64,13 +66,14 @@
         body {
             padding: 0;
             font-family: Arial;
-            font-size: 18px;
+            font-size: 16px;
             background-color: rgb(231, 242, 255);
         }
 
         .title {
-            width: 650px;
-            margin: 22px auto;
+            /* width: 650px; */
+            width: 750px;
+            margin: 20px auto;
         }
 
         .container {
@@ -99,9 +102,9 @@
 
         #bio {
             padding-top: 20px;
-            margin-right: 25px;
-            text-align: justify;
-            text-justify: inter-word;
+            /* margin-right: 25px; */
+            /* text-align: justify; */
+            /* text-justify: inter-word; */
         }
 
         #me {
@@ -178,8 +181,8 @@
             /* 论文和项目的标题 */
             .publication strong a {
                 /* color: #0000A0; */
-                font-size: 18px;
                 color: black;
+                font-size: 18px;
             }
 
             /* 代码论文链接 */
@@ -252,10 +255,11 @@
 </head>
 
 <body>
-
+    
     <div class="container">
         <div class="topbar">
         <strong>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="./home.html">Home</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <!-- <a href="./publications.html">Publications</a> -->
@@ -286,7 +290,6 @@
 
             <h1>
                 <span itemprop="name">Rong Li &nbsp;&nbsp; &nbsp;&nbsp;  李 蓉 &nbsp; 
-                <!-- <font size="5"> 李 蓉 </font>  -->
                 </span>
             </h1>
 
@@ -323,18 +326,18 @@
         <h2>News</h2>
         <p> 
      
-            [2022-09] 1 <a href="https://arxiv.org/pdf/2210.01784.pdf">paper</a> is accepted to <a href="https://bmvc2022.org/">BMVC 2022</a>.
+            [2022-09]&nbsp;&nbsp;&nbsp;&nbsp;1 <a href="https://arxiv.org/pdf/2210.01784.pdf">paper</a> is accepted to <a href="https://bmvc2022.org/">BMVC 2022</a>.
             
             <!-- [2022-09] 1 <a href="publication_files/BMVC -  Class-Prototypes for Contrastive Learning in Weakly-Supervised 3D Point Cloud.pdf">paper</a> is accepted to <a href="https://bmvc2022.org/">BMVC 2022</a>. -->
             <br />
             <br />
 
-            [2022-03] We open source <a href="https://github.com/ICEORY/DeepStream/blob/master/README-ENG.md">multi sensor embedded platform</a>.
+            [2022-03]&nbsp;&nbsp;&nbsp;&nbsp;We open source <a href="https://github.com/ICEORY/DeepStream/blob/master/README-ENG.md">multi sensor embedded platform</a>.
 
             <br />
             <br />
     
-            [2021-09] 1 <a href="https://arxiv.org/abs/2106.15277">paper</a> is accepted to <a href="https://iccv2021.thecvf.com/home">ICCV 2021</a>.
+            [2021-09]&nbsp;&nbsp;&nbsp;&nbsp;1 <a href="https://arxiv.org/abs/2106.15277">paper</a> is accepted to <a href="https://iccv2021.thecvf.com/home">ICCV 2021</a>.
             
         </p>
     </div>
@@ -417,7 +420,7 @@
                 <br />
                 <br />
 
-                is a BEV multi-sensor-fusion-based point cloud semantic segmentation implementation. Collaborated with Zhuangwei Zhuang.
+                is a BEV multi-sensor-fusion-based point cloud semantic segmentation implementation. Collaborated with <a href="https://scholar.google.com/citations?user=T2aPuoYAAAAJ&hl=en">Zhuangwei Zhuang</a>.
                 <!-- <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;- XX
                 <br />
@@ -456,7 +459,7 @@
                 is an embedded mobile platform equipped with 
                 <a href="https://www.livoxtech.com/horizon">Livox LiDAR</a> and <a href="https://www.hikrobotics.com/cn/machinevision/visionproduct?typeId=27&id=42">Camera</a>. This platform is developed on <a href="https://www.nvidia.com/en-us/-machines/embedded-systems/jetson-xavier-nx/">Nvidia Jetson Xavier NX</a>. 
                 It can be used to deploy multi-sensor based algorithms.
-                Developed ith Zhuangwei Zhuang.
+                Developed ith <a href="https://scholar.google.com/citations?user=T2aPuoYAAAAJ&hl=en">Zhuangwei Zhuang</a>.
                 
                 <!-- <br /> -->
             
@@ -497,7 +500,7 @@
                 <br />
                 <br />
                 Based on work <a href="https://arxiv.org/abs/1812.04244">PointRCNN</a>, I expanded it to detect multiple classes of objects at the same time.
-                <!-- <br /> -->
+               
                 Note: This picture is from Fast RCNN, because when this website was established, no relevant logs were found.
                 <br />
       
@@ -505,9 +508,9 @@
   
     
             </p>
-        </div>
+        </div> -->
         <br />
-        <br /> -->
+        <br />
         <div class="publication">
             <img src="./home_files/teach_seg.png" class="publogo" width="200 px" height="120 px" />
             <p>
@@ -519,7 +522,7 @@
                 <br />
                 aims to reappear the obscured content on the blackboard by teacher to improve the quality of online courses. It based an salient object detection method.
                 <!-- First, Use the salient object detection algorithm to segment the people of the current video frame and obtain a mask. And retrieve the obscured content from the previous video frame according to the obtained mask. Finally, superimpose the obtained content on the current video frame.  -->
-                Collaborated with <a href="https://zhuomanliu.tech/">Zhuoman Liu</a>, Gang Dai, Jiaqiu Zhou.
+                Collaborated with <a href="https://zhuomanliu.tech/">Zhuoman Liu</a>, <a href="https://orcid.org/0000-0001-8864-908X">Gang Dai</a>, <a herf="https://www.researchgate.net/profile/Jiaqiu-Zhou">Jiaqiu Zhou</a>.
                 <br />
       
                 <!-- <br /> -->
@@ -546,7 +549,7 @@
                 <br />
                 aims to synthesize a new view from a given input view without using explicit geometric information.
                 <!-- The proposed SCGN model consists of two main components, namely the view synthesis network (VSN) and the view decomposition network (VDN). VSN uses the input of different views to synthesize the target view. The VDN restores the input view from the synthesized new view to maintain the consistency of view synthesis. -->
-                Coolabrate with <a href="https://zhuomanliu.tech/">Zhuoman Liu</a> and Jiaqiu Zhou.
+                Coolabrate with <a href="https://zhuomanliu.tech/">Zhuoman Liu</a> and etc.
             
                 <br />
       
@@ -588,11 +591,11 @@
         <p> 
        
             [2022] &nbsp;&nbsp;&nbsp;&nbsp;
-            M.S., Software Engineering, SCUT
+            M.S., Software Engineering, <a href="https://www.scut.edu.cn/en/">SCUT</a>
             <br />
             <br />
             [2019] &nbsp;&nbsp;&nbsp;&nbsp;
-            B.S., Software Engineering, SCUT
+            B.S., Software Engineering, <a href="https://www.scut.edu.cn/en/">SCUT</a>
            
         </p>
     </div>
@@ -602,7 +605,7 @@
         <h2>Honors</h2>
         <p> 
             [2020] &nbsp;&nbsp;&nbsp;&nbsp;
-            Exam-exempt Postgraduate Recommendation Scholarship, SCUT, China 
+            Postgraduate Recommendation Scholarship, China 
             <br />
             <br />
             [2018] &nbsp;&nbsp;&nbsp;&nbsp;
@@ -621,7 +624,7 @@
     
             Email: &nbsp;&nbsp;&nbsp;&nbsp;
             <!-- selirong@mail.scut.edu.cn -->
-            lirong0329@qq.com
+            lirong0329 at qq.com
         </p>
     </div>
 
