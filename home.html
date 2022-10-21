@@ -45,7 +45,7 @@
 
 
         h1 {
-            font-size: 34px;
+            font-size: 30px;
             margin: 0;
             padding: 0;
         }
@@ -179,30 +179,32 @@
             }
 
             /* 论文和项目的标题 */
-            .publication strong a {
+            .publication strong{
                 /* color: #0000A0; */
-                color: black;
-                font-size: 18px;
+                /* color: black; */
+                font-size: 16px;
             }
 
             /* 代码论文链接 */
             .publication .links {
-                font-size: 16px;
+                /* font-size: 14px; */
                 position: relative;
                 top: 10px;
             }
 
                 .publication .links a {
+                    /*链接字体*/
+                    font-size: 12px;
                     margin-right: 20px;
                     /* 边框样式 */
                     border-style:solid;
-                    border-width:1px;
+                    border-width: 1px;
                     border-radius: 5px;
                     /* 内边距 */
                     padding-right: 5px; 
                     padding-left: 5px;
-                    padding-top: 2px;
-                    padding-bottom: 2px;
+                    padding-top: 1px;
+                    padding-bottom: 1px;
                     /* outline-offset: -1px; */
                     /* 悬浮相关 */
                     display: inline-block;
@@ -348,17 +350,18 @@
         </h2>
         <br />
         <div class="publication">
-            <img src="./home_files/weak-sup.jpg" class="publogo" width="200 px" height="110 px"/>
+            <img src="./home_files/coarse3d.png" class="publogo" width="200 px" height="110 px"/>
             <p>
                 <strong>
-                    <a href="https://arxiv.org/pdf/2210.01784.pdf">Class-Prototypes for Contrastive Learning in Weakly-Supervised 3D Point Cloud Segmentation</a>
+                    Class-Prototypes for Contrastive Learning in Weakly-Supervised 3D Point Cloud Segmentation
                 </strong>
                 <br />
                 <br />
-                <b>Rong Li</b>, <a href="https://anhquancao.github.io/">Anh-Quan Cao</a>, <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">Raoul de Charette</a>.
+                <strong><font color="blue">Rong Li</font></strong>, <a href="https://anhquancao.github.io/">Anh-Quan Cao</a>, <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">Raoul de Charette</a>.
                 <!-- <br /> -->
                 <!-- <em>arXiv Preprint, 2022</em> -->
-                <em>BMVC, 2022 
+                <br>
+                <em>The British Machine Vision Conference (BMVC), 2022 
                     <!-- <font color="#e86e14">(Oral)</font>  -->
                 </em>
                 <!-- <br /> -->
@@ -376,17 +379,15 @@
             <img src="./home_files/pmf.png" class="publogo" width="200 px" height="130 px" />
             <p>
                 <strong>
-                    <!-- <a href="https://xxx.github.io/projects/xxx/"> -->
-                    <a href="https://arxiv.org/abs/2106.15277">
-                        Perception-Aware Multi-Sensor Fusion for 3D LiDAR Semantic Segmentation</a>
+                        Perception-Aware Multi-Sensor Fusion for 3D LiDAR Semantic Segmentation
                 </strong>
                 <br />
                 <br />
-                <a href="https://scholar.google.com/citations?user=T2aPuoYAAAAJ&hl=en">Zhuangwei Zhuang</a>, <b>Rong Li</b>, <a href="https://scholar.google.com.sg/citations?user=wN3v1coAAAAJ&hl=en">Yuanqing Li</a>, <a href="https://scholar.google.co.uk/citations?user=Mf9VHRcAAAAJ&hl=zh-CN">Kui Jia</a>, Qicheng Wang, <a href="https://tanmingkui.github.io/">Mingkui Tan</a>.
+                <a href="https://scholar.google.com/citations?user=T2aPuoYAAAAJ&hl=en">Zhuangwei Zhuang</a>, <strong><font color="blue">Rong Li</font></strong>, <a href="https://scholar.google.com.sg/citations?user=wN3v1coAAAAJ&hl=en">Yuanqing Li</a>, <a href="https://scholar.google.co.uk/citations?user=Mf9VHRcAAAAJ&hl=zh-CN">Kui Jia</a>, Qicheng Wang, <a href="https://tanmingkui.github.io/">Mingkui Tan</a>.
+                <br>
+                <em>International Conference on Computer Vision (ICCV), 2021</em>
                 <!-- <br /> -->
-                <em>ICCV, 2021</em>
-                <!-- <br /> -->
-                <br />
+                <br>
                 <span class="links">
                     <a href="https://arxiv.org/abs/2106.15277">Paper</a>
                     <!-- <a href="https://youtu.be/giUkCKytZU8">Video</a> -->
@@ -409,11 +410,11 @@
         <h2>Projects</h2>
         <br />
         <div class="publication">
-            <img src="./home_files/sensat_rgb.png" class="publogo" 
+            <img src="./home_files/sensat.png" class="publogo" 
             width="200 px"  />
             <p>
                 <strong>
-                    <a href="https://competitions.codalab.org/competitions/31519">SensatUrban: Urban-Scale Point Clouds Understanding Challenge
+                    SensatUrban: Urban-Scale Point Clouds Understanding Challenge
                     </a>
                 </strong>
 
@@ -431,10 +432,9 @@
                 <br />
 
                 <span class="links">
-                    <!-- <a href="https://arxiv.org/abs/2106.15277">Paper</a> -->
-                    <!-- <a href="https://youtu.be/giUkCKytZU8">Video</a> -->
                     <a href="https://github.com/ICEORY/PMF">Code</a>
                     <!-- <a href="https://xxx">Dataset</a> -->
+                    <a href="https://competitions.codalab.org/competitions/31519">Board</a>
                 </span>
 
                 <!-- Ref: https://buttons.github.io/ -->
@@ -450,15 +450,15 @@
             <img src="./home_files/calib.gif" class="publogo" width="200 px"  />
             <p>
                 <strong>
-                    <a href="https://github.com/ICEORY/DeepStream/blob/master/README-ENG.md">An Embedded Mobile Platform Equipped with LiDAR and Camera
-                    </a>
+                    An Embedded Mobile Platform Equipped with LiDAR and Camera
+                    
                 </strong>
                 <br />
                 <br />
 
                 is an embedded mobile platform equipped with 
-                <a href="https://www.livoxtech.com/horizon">Livox LiDAR</a> and <a href="https://www.hikrobotics.com/cn/machinevision/visionproduct?typeId=27&id=42">Camera</a>. This platform is developed on <a href="https://www.nvidia.com/en-us/-machines/embedded-systems/jetson-xavier-nx/">Nvidia Jetson Xavier NX</a>. 
-                It can be used to deploy multi-sensor based algorithms.
+                <a href="https://www.livoxtech.com/horizon">Livox LiDAR</a> and <a href="https://www.hikrobotics.com/cn/machinevision/visionproduct?typeId=27&id=42">Camera</a> and is developed on <a href="https://www.nvidia.com/en-us/-machines/embedded-systems/jetson-xavier-nx/">Nvidia Jetson Xavier NX</a>. 
+                <!-- It can be used to deploy multi-sensor based algorithms. -->
                 Developed ith <a href="https://scholar.google.com/citations?user=T2aPuoYAAAAJ&hl=en">Zhuangwei Zhuang</a>.
                 
                 <!-- <br /> -->
@@ -515,12 +515,13 @@
             <img src="./home_files/teach_seg.png" class="publogo" width="200 px" height="120 px" />
             <p>
                 <strong>
-                    <a href="https://www.youtube.com/watch?v=JzqalkgIsXc">Human Segmentation for Intelligence Education
-                    </a>
+                    Human Segmentation for Intelligence Education
+                    
                 </strong>
                 <br />
                 <br />
-                aims to reappear the obscured content on the blackboard by teacher to improve the quality of online courses. It based an salient object detection method.
+                aims to reappear the obscured content on the blackboard by teacher to improve the quality of online courses. 
+                <!-- It based an salient object detection method. -->
                 <!-- First, Use the salient object detection algorithm to segment the people of the current video frame and obtain a mask. And retrieve the obscured content from the previous video frame according to the obtained mask. Finally, superimpose the obtained content on the current video frame.  -->
                 Collaborated with <a href="https://zhuomanliu.tech/">Zhuoman Liu</a>, <a href="https://orcid.org/0000-0001-8864-908X">Gang Dai</a>, <a herf="https://www.researchgate.net/profile/Jiaqiu-Zhou">Jiaqiu Zhou</a>.
                 <br />
@@ -542,12 +543,12 @@
             <img src="./home_files/scgn.png" class="publogo" width="200 px" height="110 px" />
             <p>
                 <strong>
-                    <a href="https://www.youtube.com/watch?v=phC4gAi8mkg">Deep View Synthesis via Self-Consistent Generative Network
-                    </a>
+                    Deep View Synthesis via Self-Consistent Generative Network
+                    
                 </strong>
                 <br />
                 <br />
-                aims to synthesize a new view from a given input view without using explicit geometric information.
+                aims to synthesize the front view from left and right views.
                 <!-- The proposed SCGN model consists of two main components, namely the view synthesis network (VSN) and the view decomposition network (VDN). VSN uses the input of different views to synthesize the target view. The VDN restores the input view from the synthesized new view to maintain the consistency of view synthesis. -->
                 Coolabrate with <a href="https://zhuomanliu.tech/">Zhuoman Liu</a> and etc.
             
